@@ -8,5 +8,24 @@
     <string name="title_activity_rob_tab">RobTab</string>
     <string name="title_activity_rachel_tab">RachelTab</string>
     <string name="title_activity_bobby_tab">BobbyTab</string>
+    <string name="engStr">English</string>
+    <string name="spaStr">Español</string>
+    <string name="frStr">Français</string>
+    <string name="portStr">Português</string>
+    <string name="gerStr">Deutsch</string>
+    <string name="itaStr">Italiano</string>
+    <string name="engHWStr">Hello, World!</string>
+    <string name="gerHWStr">Hallo, Welt!</string>
+    <string name="spaHWStr">¡Hola, mundo!</string>
+    <string name="frHWStr">Bonjour tout le monde!</string>
+    <string name="portHWStr">Olá, mundo!</string>
+    <string name="itaHWStr">Ciao, mondo!</string>
+    <string name="spaGreet">¡Buen día!</string>
+    <string name="gerGreet">Guten Tag!</string>
+    <string name="fraGreet">Bonne journée!</string>
+    <string name="portGreet">Bom dia!</string>
+    <string name="engGreet">Good day!</string>
+    <string name="itaGreet">Buona giornata!</string>
+    
 
 </resources>

@@ -8,9 +8,66 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".BobbyTab" >
 
-    <TextView
+    <Button
+        android:id="@+id/helloButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bobby" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="58dp"
+        android:text="@string/engHWStr" />
+
+    <RadioGroup
+        android:id="@+id/languageRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/englishRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/engStr" />
+
+        <RadioButton
+            android:id="@+id/spanishRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spaStr" />
+
+        <RadioButton
+            android:id="@+id/frenchRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frStr" />
+
+        <RadioButton
+            android:id="@+id/portugueseRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/portStr" />
+
+        <RadioButton
+            android:id="@+id/germanRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gerStr" />
+
+        <RadioButton
+            android:id="@+id/italianRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itaStr" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/greetTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

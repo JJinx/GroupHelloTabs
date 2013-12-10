@@ -24,9 +24,18 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090002;
-        public static final int btnRyanDestruct=0x7f090001;
-        public static final int pager=0x7f090000;
+        public static final int action_settings=0x7f09000b;
+        public static final int btnRyanDestruct=0x7f09000a;
+        public static final int englishRB=0x7f090002;
+        public static final int frenchRB=0x7f090004;
+        public static final int germanRB=0x7f090006;
+        public static final int greetTextView=0x7f090008;
+        public static final int helloButton=0x7f090000;
+        public static final int italianRB=0x7f090007;
+        public static final int languageRadioGroup=0x7f090001;
+        public static final int pager=0x7f090009;
+        public static final int portugueseRB=0x7f090005;
+        public static final int spanishRB=0x7f090003;
     }
     public static final class layout {
         public static final int activity_bobby_tab=0x7f030000;
@@ -48,7 +57,25 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
+        public static final int engGreet=0x7f060017;
+        public static final int engHWStr=0x7f06000d;
+        public static final int engStr=0x7f060007;
+        public static final int frHWStr=0x7f060010;
+        public static final int frStr=0x7f060009;
+        public static final int fraGreet=0x7f060015;
+        public static final int gerGreet=0x7f060014;
+        public static final int gerHWStr=0x7f06000e;
+        public static final int gerStr=0x7f06000b;
         public static final int hello_world=0x7f060003;
+        public static final int itaGreet=0x7f060018;
+        public static final int itaHWStr=0x7f060012;
+        public static final int itaStr=0x7f06000c;
+        public static final int portGreet=0x7f060016;
+        public static final int portHWStr=0x7f060011;
+        public static final int portStr=0x7f06000a;
+        public static final int spaGreet=0x7f060013;
+        public static final int spaHWStr=0x7f06000f;
+        public static final int spaStr=0x7f060008;
         public static final int title_activity_bobby_tab=0x7f060006;
         public static final int title_activity_rachel_tab=0x7f060005;
         public static final int title_activity_rob_tab=0x7f060004;

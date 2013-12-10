@@ -5,8 +5,10 @@ import java.util.Hashtable;
 
 import android.os.Bundle;
 import android.app.ActionBar;
+import android.app.AlertDialog;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
@@ -22,7 +24,6 @@ public class MainActivity extends FragmentActivity {
 	public static ViewPager mViewPager;
 	public static ActionBar.TabListener tabListener;
 	public static Hashtable<String,Class> fragments = new Hashtable();
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
